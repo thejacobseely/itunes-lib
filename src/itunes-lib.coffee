@@ -20,6 +20,7 @@ class ITunesLib
       title: track["Name"]
       artist: track["Artist"]
       album: track["Album"]
+      year: track["Year"]
       play_count: track["Play Count"]
       date_added: moment(track["Date Added"]).toDate()
       play_date: moment(track["Play Date UTC"]).toDate()
